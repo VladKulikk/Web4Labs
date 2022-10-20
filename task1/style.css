@@ -1,0 +1,19 @@
+#comment1{
+    resize: both;
+    margin-bottom: 20px;
+}
+
+#comment2{
+    resize: none;
+    margin-bottom: 20px;
+}
+
+#comment3{
+    resize: horizontal;
+    margin-bottom: 20px;
+}
+
+#comment4{
+    resize: vertical;
+    margin-bottom: 20px;
+}
