@@ -1,0 +1,39 @@
+#shadowtext{
+    margin-bottom: 20px;
+    text-shadow: grey 10px 10px;
+}
+
+#blurtext{
+    margin-bottom: 20px;
+    text-shadow: grey 10px 10px 2px;
+}
+
+#twoshadowstext{
+    margin-bottom: 20px;
+    text-shadow:  10px 10px 0 blue, -10px -10px 0 red;
+}
+
+#indentedtext{
+    margin-bottom: 20px;
+    color: #ddddbb;
+    text-shadow: -0.1px -0.1px 0.1px #444444;
+}
+/*#indentedtext{
+    margin-bottom: 20px;
+    background: #222;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 0.2px 0.2px 0.3px #444444 ;
+}*/
+
+#bulktext{
+    margin-bottom: 20px;
+    color: #ddddbb;
+    text-shadow: 1px 1px 1px #444444 ;
+}
+
+
+#circuit{
+    margin-bottom: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ddddbb;
+}

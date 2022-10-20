@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image{
+    width: 45%;
+}
+
+#picture{
+    filter: grayscale(0);
+}
+
+#picture1{
+    filter: sepia(0);
+}
+
+#picture2{
+    filter: saturate(50%);
+}
+
+#picture3{
+    filter:hue-rotate(90deg);
+}
+
+#picture4{
+    filter: invert();
+}
+
+#picture5{
+    filter: contrast(50%);
+}

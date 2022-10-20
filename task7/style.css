@@ -1,0 +1,24 @@
+body{
+    width: 160px;
+}
+
+#box1{
+    height: 100px;
+    box-shadow: 10px 10px 3px grey;
+    margin: 30px;
+    border: solid 1px black;
+}
+
+#box2{
+    height: 100px;
+    box-shadow: 10px 10px 3px grey, -10px -10px 3px grey;
+    margin: 30px;
+    border: solid 1px black;
+}
+
+#box3{
+    height: 100px;
+    box-shadow: inset 3px 3px 3px grey;
+    margin: 30px;
+    border: solid 1px black;
+}

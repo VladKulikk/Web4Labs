@@ -1,0 +1,22 @@
+#button1{
+    font-size: small;
+}
+
+#button2{
+    font-size: medium;
+}
+
+#button3{
+    font-size: large;
+    
+}
+
+button{
+    border-radius: 0.5em;
+    border: none;
+    box-shadow:0em 0em 0.5em darkgrey;
+    text-align:center;
+    padding: 0.2em;
+    margin: 0.1em;
+    background-color: lightgrey;
+}

@@ -1,0 +1,53 @@
+.title{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    color:darkgrey;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    background-color: #ffe5e5;
+    width: 30%;
+    margin: 5px;
+
+}
+
+.description{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-small;
+    text-align: center;
+    min-height: 45px;
+    margin: 10px;
+}
+
+.area{
+    width: 80%;
+    margin: 10%;
+    height: 50px;
+    
+}
+
+#pink{
+    background-color: lightpink;
+}
+
+#blue{
+    background-color: lightskyblue;
+}
+
+#green{
+    background-color: lightgreen;
+}
+

@@ -1,0 +1,25 @@
+@media screen {
+    #screen{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+        height: 100px;
+    }
+    .box{
+        background-color: blue;
+        color: white;
+        height: 50%;
+        width: 50%;
+        min-width: 80px;
+        margin: 10px;
+    }
+    .bigbox{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content:space-between;
+        min-width: 50%;
+        flex-grow:1;
+    }
+}
