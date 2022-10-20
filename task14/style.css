@@ -1,0 +1,171 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: #d0dfe5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.tower {
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    background-color: white ;
+    z-index: 2;
+    left: 80px;
+    top: 130px;
+}
+
+.tower::before {
+    content: "";
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid #d66b54;
+    position: absolute;
+    top: -40px;
+}
+
+.tower::after {
+    content: "";
+    border-top: 25px solid #707070;
+    border-right: 10px solid #707070;
+    border-left: 10px solid #707070;
+    position: absolute;
+    top: 10px;
+    left:  15px;
+}
+
+.home {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    background-color: white ;
+    z-index: 3;
+    left: 130px;
+    top: 200px;
+
+}   
+
+.home::before {
+    content: "";
+    border-bottom: 25px solid #d66b54;
+    border-right: 25px solid transparent;
+    border-left: 115px solid #d66b54;
+    position: absolute;
+    top: -25px;
+    z-index: 3;
+    left: -20px;
+}
+
+.home::after {
+    content: "";
+    height: 25px;
+    background-color: #d66b54;
+    width: 100px;
+    position: absolute;
+    top: -35px;
+}
+
+.window{
+    content: "";
+    height: 22px;
+    width: 15px;
+    background: #707070;
+    position: absolute;
+    z-index: 3;
+    top: 215px;
+}
+
+#window1 {
+    left: 130px;
+}
+
+#window2 {
+    left: 150px;
+}
+
+#window3 {
+    left: 170px;
+}
+
+#window4 {
+    left: 200px;
+}
+
+#window5 {
+    left: 220px;
+}
+
+.cloud3 {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    border-radius: 60px 60px 0 0; 
+    top: 70px;
+    left: 0; 
+    animation: move 10s linear infinite;
+    z-index: 1;
+}
+
+.cloud3::after {
+    content: "";
+    background-color:white;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-radius: 60px 60px 0 0; 
+    left: 30px;
+    top: 10px; 
+}
+
+.cloud4 {
+    background-color: white;
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    border-radius: 60px 60px 0 0; 
+    top: 100px;
+    left: 150px; 
+    animation: move 10s linear infinite;
+    z-index: 1;
+}
+
+.cloud4::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-radius: 60px 60px 0 0; 
+    left: -20px;
+    top: 10px; 
+}
+
+.cloud4::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-radius: 60px 60px 0 0; 
+    left: -60px;
+    top: 10px; 
+}
+
+@keyframes move{
+    100% {
+        left: 350px; 
+        opacity: 0.5;
+    } 
+    0% {
+       left: -150px; 
+       opacity: 0.5; 
+    } 
+}
+
+
+
+
+
