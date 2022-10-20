@@ -1,0 +1,30 @@
+#text1{
+    width: 25%;
+    padding: 2px;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#text1:hover{
+    white-space:normal;
+    overflow:auto;
+}
+
+#text2{
+    padding: 2px;
+    border: solid 1px black;
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#text2:hover{
+    white-space:normal;
+    overflow:auto;
+}
+
+
