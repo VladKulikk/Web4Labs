@@ -1,0 +1,33 @@
+#cursor1{
+    cursor:alias;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;
+    margin-bottom: 30px;
+}
+
+#cursor2{
+    cursor:all-scroll;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;
+    margin-bottom: 30px;
+}
+
+
+#cursor3{
+    cursor:cell;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;
+    margin-bottom: 30px;
+}
+
+
+#cursor4{
+    cursor:crosshair;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;
+    margin-bottom: 30px;
+}
